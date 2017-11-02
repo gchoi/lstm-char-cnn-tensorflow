@@ -4,7 +4,7 @@ import math
 import pickle
 import numpy as np
 
-
+print("HELLO")
 def save(fname, obj):
   with open(fname, 'w') as f:
     pickle.dump(obj, f)
